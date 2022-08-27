@@ -1,0 +1,43 @@
+.testimonial {
+    font-size: 0.8125rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: #48556a;
+    flex-grow: 1;
+}
+
+.testimonial img {
+    width: 1.75rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.testimonial .name {
+    font-size: 0.8125rem;;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.testimonial .position {
+    font-size: 0.6875rem;
+    opacity: 0.5;
+}
+
+.testimonial > p:first-of-type {
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.testimonial > p:last-of-type {
+    opacity: 0.7;
+}
+
+.testimonial-profile-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonial-profile-wrapper p,.testimonial-profile-wrapper h2 {
+    margin: 0;
+}

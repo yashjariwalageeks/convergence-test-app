@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    justify-content: space-between;
+    padding: 10px;
+    top: 0;
+    background: #000000 ;
+    z-index: 1;
+}
+
+.header p {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 10px;
+}

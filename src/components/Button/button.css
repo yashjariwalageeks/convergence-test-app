@@ -1,0 +1,19 @@
+.button-wrapper {
+    background: var(--btn-background, #30307c);
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+    cursor: pointer;
+    position: relative;
+}
+
+.button-wrapper:not(:disabled):hover {
+    opacity: 0.7;
+}
+
+.button-wrapper:disabled {
+    cursor: not-allowed;
+}
