@@ -1,6 +1,7 @@
 # convergence test app
 
-##About app
+## About app
+
 This app is a single-page application that has four major screens `(Landing page, Registration page, Login page, and Home page)`. This app demonstrates how the react app works and the standard code structure that should be followed while building a react app.
 
 * Landing page- This Page has two buttons `New user` and `Existing User`. The `New user` button will lead the user to the `Registration Page` and `Existing User` button will lead the user to the `Login Page`.
@@ -22,14 +23,13 @@ The app lives in `./src`.
 
 New components should live within the `./src/containers/<component>/<component>.jsx`. New reusable components should live within the `./src/component/<component>/<component>.jsx`. If the component category is complex enough, subfolders can be used to further separate them `./src/containers/<component>/<sub-folder>/<component>.jsx`.
 
-##Environment
+## Environment
+
 There is a file called ` .env.example` please change it `.env`. and you can put your app secret in that file, Make sure you follow this syntax to create an environment variable `REACT_APP_<secret>`. and then you can access those secrets anywhere in the app from the process object.
 
 Example: `process.env.REACT_APP_BASE_URL`
 
-
-
-##Development setup
+## Development setup
 
 * Install `NodeJS` [https://nodejs.org/en/](https://nodejs.org/en/). Node version should be` >= 14`
 * Install `yarn`  [https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
