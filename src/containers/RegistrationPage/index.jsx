@@ -77,7 +77,7 @@ const RegistrationPage = () => {
         }
 
         if (!gender?.trim()) {
-            error.gender = "Please select a gender."
+            error.gender = "Gender is required field."
         }
         if (Object.keys(error).length) {
             setState({...state, error: error})
@@ -119,18 +119,18 @@ const RegistrationPage = () => {
             <div className={"login-item-wrapper"}>
                 <h1>Registration</h1>
                 <Input inputStyle={{"--in-color": "#9d49ee"}} label={"Email"} type="text" name={"email"}
-                       placeholder={"Please enter you email"}
+                       placeholder={"Please enter your email"}
                        value={state.email} onChange={handleChange} error={state?.error?.email}/>
 
                 <Input inputStyle={{"--in-color": "#9d49ee"}} label={"Password"} type="password" name={"password"}
-                       placeholder={"Please enter you email"}
+                       placeholder={"Please enter your password"}
                        value={state.password}
                        onChange={handleChange}
                        error={state?.error?.password}/>
 
                 <Input inputStyle={{"--in-color": "#9d49ee"}} label={"Confirm Password"} type="password"
                        name={"confirmPassword"}
-                       placeholder={"Please re-enter you email"}
+                       placeholder={"Please re-enter your password"}
                        value={state.confirmPassword}
                        onChange={handleChange}
                        error={state?.error?.confirmPassword}
