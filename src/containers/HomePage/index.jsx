@@ -34,11 +34,11 @@ const HomePage = (props) => {
     return (
         <div style={{height: "100%", overflowY: "auto"}}>
             <div className={"header"}><p>Home</p><Button
-                buttonStyle={{"--btn-background": "#9d49ee", fontSize: "1rem", minWidth:"8em"}} disabled={isLoading}
+                buttonStyle={{"--btn-background": "#9d49ee", fontSize: "1rem", minWidth: "8em"}} disabled={isLoading}
                 onClick={onLogOutClicked}>{isLoading ?
                 <i className="fa fa-circle-o-notch fa-spin"/> : "Log out"}</Button></div>
             <div className={"card-wrapper"}>
-                {cardInfoRef.current.map((value,index) => {
+                {cardInfoRef.current.map((value, index) => {
                     return <CustomCard {...value} key={"card_" + index} index={index}/>
                 })}
             </div>

@@ -1,43 +1,43 @@
-.testimonial {
-    font-size: 0.8125rem;
+.card {
+    font-size: 0.8rem;
     padding: 2rem;
     border-radius: 0.5rem;
     background: #48556a;
     flex-grow: 1;
 }
 
-.testimonial img {
+.card img {
     width: 1.75rem;
     aspect-ratio: 1;
     border-radius: 50%;
 }
 
-.testimonial .name {
-    font-size: 0.8125rem;;
+.card .name {
+    font-size: 0.8rem;;
     font-weight: 500;
     line-height: 1;
 }
 
-.testimonial .position {
+.card .position {
     font-size: 0.6875rem;
     opacity: 0.5;
 }
 
-.testimonial > p:first-of-type {
+.card > p:first-of-type {
     font-size: 1.25rem;
     line-height: 1.2;
 }
 
-.testimonial > p:last-of-type {
+.card > p:last-of-type {
     opacity: 0.7;
 }
 
-.testimonial-profile-wrapper {
+.card-profile-wrapper {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.testimonial-profile-wrapper p,.testimonial-profile-wrapper h2 {
+.card-profile-wrapper p,.card-profile-wrapper h2 {
     margin: 0;
 }

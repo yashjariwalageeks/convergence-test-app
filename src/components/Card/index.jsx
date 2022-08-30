@@ -23,8 +23,8 @@ const cardColors = [
 const CustomCard = ({name, position, info, description, image,index}) => {
     const cardBgColor = cardColors[index]
     return (
-        <article className="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100" style={cardBgColor}>
-            <div className="testimonial-profile-wrapper">
+        <article className="card" style={cardBgColor}>
+            <div className="card-profile-wrapper">
                 <div>
                     <img src={image} alt="daniel clifford"/>
                 </div>

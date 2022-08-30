@@ -1,10 +1,10 @@
 /**
  * @param {{
-    email: string,
-    password: string,
-    dateOfBirth: date,
-    gender: string
-    }} userInfo
+ *   email: string,
+ *   password: string,
+ *   dateOfBirth: date,
+ *   gender: string
+ *   }} userInfo
  * @returns {promise}
  */
 export function registerUser(userInfo) {

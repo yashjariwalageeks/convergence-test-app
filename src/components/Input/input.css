@@ -61,7 +61,7 @@ button.input-wrapper span {
 .input-item-wrapper .error-message {
     font-size: 1rem;
     color: red;
-    margin-block-start:0.5rem;
+    margin-block-start: 0.5rem;
     margin-block-end: 0;
     white-space: pre-line;
 }
